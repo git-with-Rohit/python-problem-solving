@@ -31,7 +31,7 @@ To run the tests for this problem, navigate to the problem directory and run the
 
 1. Navigate to the problem directory:
    ```bash
-   cd problem4_median_of_two_sorted_arrays
+   cd prob4_median_of_two_sorted_arrays
 
 2. Run the tests using Python:
     ```bash
