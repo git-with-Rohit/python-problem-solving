@@ -1,0 +1,34 @@
+# LeetCode Python Solutions
+
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+
+This repository contains solutions to various LeetCode problems implemented in Python. Each solution is organized into its own directory and includes a description of the problem, the solution, and tests to verify the solution.
+
+## Problem List
+- [Problem 1: Test](./problem1_test_sum)
+- [Problem 2: Two Sum](./prob2_two_sum)
+- ... (Add more problems )
+
+## Structure
+Each problem directory contains the following files:
+- `README.md`: Description of the problem, approach, examples, and constraints.
+- `solution.py`: The Python solution for the problem.
+- `tests.py`: Unit tests for the solution.
+
+## Example
+### Problem 2: Add Two Numbers
+#### Problem Statement
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+
+#### Approach
+- Traverse both linked lists and add corresponding digits.
+- Use a carry to handle sums greater than 10.
+- Continue until both linked lists and carry are processed.
+
+
+#### Solution
+See `solution.py` for the implementation.
+
+## Running Tests
+To run the tests for any problem, navigate to the problem directory and run the `tests.py` file.
+
